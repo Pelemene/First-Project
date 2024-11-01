@@ -1,0 +1,77 @@
+body{
+      background:url("mikolas-voborsky-N1dlHIsEagM-unsplash.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 900px;
+      font-family: Poppins;
+}
+.container{
+      margin-top: 30px;
+}
+.big{
+      margin-top: 100px;
+}
+
+.main{
+      background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blurs the background behind */
+    border-radius: 10px; /* Optional rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional light border */
+    padding: 20px; /* Optional padding inside */
+    color: #ffffff; /* Text color to contrast the background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /
+
+}
+
+.cus{
+      border: none;
+      display: inline;
+      width: 25px; /* Width of the checkbox */
+      height: 25px; /* Height of the checkbox */
+      background: #381515;
+      border-radius: 4px; /* Rounded corners (optional) */
+      position: relative;
+      float: left;
+      margin-right: 20px;
+      accent-color: green;
+  }
+ 
+.label2{
+      margin-left: 12px;
+      cursor: pointer;
+}
+.Add{
+      margin-left: 10px;
+      cursor: pointer;
+}
+
+
+.transparent{
+      background: rgba(80, 80, 80, 0.2);
+}
+.long{
+      margin-bottom: 100px;
+}
+
+.display-6 {
+      font-size: 20px;
+      line-height: 0px;
+      font-family: Poppins;
+      font-weight: 400;
+}
+.display-3{
+      font-size: 50px;
+      font-family: Poppins;
+      font-weight: 300;
+}
+
+@media(max-width:768px){
+      .display-6{
+            font-size: 15px;
+      }
+
+      .display-3{
+            font-size: 35px;
+      }
+}
